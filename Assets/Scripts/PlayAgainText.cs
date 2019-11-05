@@ -20,6 +20,7 @@ public class PlayAgainText : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        Debug.Log("Pointer click");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
